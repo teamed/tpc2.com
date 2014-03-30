@@ -6,7 +6,7 @@ tags:
 - code review
 - software quality
 - peer review
-tumblr_url: /dev/reviews
+permalink: /dev/reviews
 categories: blog
 ---
 
@@ -15,7 +15,7 @@ itself. The main and the only result of code review is defects reported.
 Checkout the source code from repository, review it, and report defects. There
 are a few rules and recommendations:
 
-<span class="step">1</span>  **Don’t rush. At the beginning, some of your
+<span class="step">1</span>  **Don't rush**. At the beginning, some of your
 tickets will be rejected, mostly because they are duplicates or incorrectly
 formatted. Submit 1-2 tickets per day, until you get used to our process.
 

@@ -5,7 +5,8 @@ date: '2011-05-28T04:03:00+02:00'
 tags:
 - freelance
 - remote programming
-tumblr_url: /dev/intro
+permalink: /dev/intro
+categories: blog
 ---
 
 We want to work with you if you have something exceptional, e.g. skills,

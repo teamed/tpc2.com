@@ -7,11 +7,3 @@ title: tpc2
   <h1>{{ post.title }}</h1>
   {{ post.content }}
 {% endfor %}
-
-<p>Blog Posts</p>
-
-<ul>
-{% for post in site.categories.blog %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>

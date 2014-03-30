@@ -3,7 +3,6 @@ layout: post
 title: Team-as-a-Service
 date: '2014-02-28T14:07:00+01:00'
 tags: []
-tumblr_url: http://www.tpc2.com/post/50258876677/team-as-a-service
 categories: front
 ---
 

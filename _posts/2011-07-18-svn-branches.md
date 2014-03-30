@@ -7,7 +7,8 @@ tags:
 - branches
 - subversion
 - PDD
-tumblr_url: /dev/branches
+permalink: /dev/branches
+categories: blog
 ---
 
 Now you have a ticket, say #123, assigned to you and you are ready to implement

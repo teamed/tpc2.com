@@ -3,7 +3,7 @@ layout: post
 title: How to Review Pull Requests
 date: '2014-01-10T06:34:00+01:00'
 tags: []
-tumblr_url: /dev/pull
+permalink: /dev/pull
 categories: blog
 ---
 

@@ -6,7 +6,7 @@ tags:
 - freelance
 - remote programming
 - SCM
-tumblr_url: /dev/guidelines
+permalink: /dev/guidelines
 categories: blog
 ---
 

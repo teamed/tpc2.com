@@ -3,7 +3,7 @@ layout: post
 title: Team Work Principles
 date: '2013-11-27T02:36:00+01:00'
 tags: []
-tumblr_url: /dev/principles
+permalink: /dev/principles
 categories: blog
 ---
 
