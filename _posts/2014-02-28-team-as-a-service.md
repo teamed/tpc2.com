@@ -19,12 +19,12 @@ principles.
 programmers, designers, architects, testers, analysts, QA engineers, and a
 project manager.
 
-<span class="step">3</span> We **train** your executive team to understand the
-management principles of XDSD and effectively control productivity of the
+<span class="step">3</span> We **train** your executive team to understand our
+principles of management and effectively control productivity of the
 distributed team.
 
 <span class="step">4</span> We **maintain** the team regularly, improving the
-software instruments, extending the pool of available engineers, and providing
-additional trainings.
+software instruments, extending the pool of available engineers, and
+achieving project milestones.
 
 Call now for a meeting and a quote.

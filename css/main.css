@@ -112,6 +112,7 @@ table {
     padding-bottom: 0.3em;
   }
 span.step {
+  clear: both;
   color: #0093d0;
   float: left;
   font-size: 3em;
