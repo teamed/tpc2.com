@@ -22,6 +22,7 @@ with care by people who understand every quality rule we enforce, by heart :)
 Seriously, we want you to share our passion about quality, and follow our
 standards.
 
-Well, maybe these IntelliJ IDEA settings may help you: idea-settings.jar
+Well, maybe these IntelliJ IDEA settings may help you:
+[idea-settings.jar](http://img.tpc2.com/idea-settings.jar)
 
 Just give it some time, you will love quality like we do.

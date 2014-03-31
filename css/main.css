@@ -4,10 +4,10 @@
   border: 0;
 }
 body {
-  font-family: Verdana, Arial;
+  font-family: 'Ubuntu', Verdana, Arial;
   padding: 1em;
   background-color: #e7e9ea;
-  font-size: 16px;
+  font-size: 18px;
 }
 .wrapper {
   margin-right: auto;
@@ -119,3 +119,10 @@ span.step {
   text-align: center;
   padding: 0.5em;
 }
+ul.blog {
+  margin-left: 0;
+}
+  ul.blog li {
+    margin-top: 1.5em;
+    list-style: none;
+  }

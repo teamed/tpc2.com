@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Reviews
+title: How to Do Code Reviews
 date: '2012-05-10T04:03:00+02:00'
 tags:
 - code review
