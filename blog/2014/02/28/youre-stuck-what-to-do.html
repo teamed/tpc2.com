@@ -9,7 +9,7 @@
     <link rel="author" href="https://plus.google.com/u/0/114792568016408327418?rel=author" />
     <meta name="keywords" content="XDSD, team-as-a-service, team as a service, distributed software development, parallel programming, remote programming, software development methodology, extremely distributed software development, extreme programming, Agile, XP, PMBOK, project management, branching, revision control" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>tpc2</title>
+    <title>You're stuck, what to do?</title>
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -28,31 +28,35 @@
         <aside style="float:right">
           <a href="/blog.html">blog</a>
         </aside>
-        
-  <h1>Team-as-a-Service</h1>
-  <p>You need to grow by making new software. You need more technical and management
-resources. You need many of them and very soon. You can go for head-hunting or
-you can try outsourcing. However, if you are savvy enough, there is a better
-way:</p>
+        <h1>You're stuck, what to do?</h1>
 
-<p><span class="step">1</span> We <strong>setup</strong> a web development environment of
-proprietary and open source instruments, compliant to XDSD management
-principles.</p>
+<p>It’s a very common situation, when you get a task, which you can’t implement.
+It’s not a problem at all, let’s see what you should do:</p>
 
-<p><span class="step">2</span> We <strong>build</strong> and <strong>bootstrap</strong> a distributed team of
-programmers, designers, architects, testers, analysts, QA engineers, and a
-project manager.</p>
+<p><strong>Design flaws</strong>.  It’s not clear what design is required. You don’t know how to
+implement a class, how to define method arguments, what classes to use as
+dependencies, etc. This happens mostly when you just joined the project and
+don’t have enough information yet. Don’t try to figure this out yourself. Rule
+of thumb is this: “if something is not clear, it is our fault, not yours”. If
+you don’t understand how project is designed, it is a fault of project designer.
+Submit a bug report, asking for an explanation of a design concept. You will be
+paid for this report, and the information you get back will be shared between
+all other developers. Your contribution will be appreciated.</p>
 
-<p><span class="step">3</span> We <strong>train</strong> your executive team to understand our
-principles of management and effectively control productivity of the
-distributed team.</p>
+<p><strong>Don’t ask for help</strong>.  When something is not clear, don’t expect anyone to
+help you. The only source of help is the source code itself. If it doesn’t
+explain everything that you need - it is a bug, which should be reported. When
+you’re working with a task and you have questions - don’t ask them in the task.
+Instead, create a new bug report. Someone will be assigned to this new task and
+will provide you the help you’re looking for.</p>
 
-<p><span class="step">4</span> We <strong>maintain</strong> the team regularly, improving the
-software instruments, extending the pool of available engineers, and
-achieving project milestones.</p>
+<p><strong>Broken build</strong>.  You can’t merge your branch because of failures in tests that
+don’t belong to your task. This may happen, mostly because some of unit tests
+are not 100% stable. Don’t try to fix them, just report a problem as a new bug
+and wait for its resolution.</p>
 
-<p>Call now for a meeting and a quote.</p>
-
+<p>As you can see, in all situations we strongly recommend to report bugs instead
+of trying to fix the problem yourself.</p>
 
 
       </section>
