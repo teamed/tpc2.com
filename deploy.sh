@@ -2,7 +2,7 @@
 
 SRC=$(pwd)
 rm -rf _site
-jekyll build
+jekyll build --trace
 
 mkdir -p ~/.ssh
 CLONE=$(mktemp -d -t blog-XXX)
