@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: 'Ubuntu', Verdana, Arial;
+  padding: 1em;
+  background-color: #e7e9ea;
+  font-size: 18px;
+}
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+  position: relative;
+}
+.top {
+  text-align: left;
+  position: relative;
+  height: 4.5em;
+}
+  .logo {
+    position: absolute;
+    right: 2em;
+    bottom: 1em;
+    width: 80px;
+    height: 58px;
+  }
+  .taas {
+    position: absolute;
+    right: 9em;
+    bottom: 1em;
+    width: 136px;
+    height: 58px;
+  }
+  .title {
+    position: absolute;
+    left: 0.5em;
+    bottom: 0.5em;
+    font-size: 2em;
+    line-height: 1em;
+  }
+.content {
+  border: 1px solid #122632;
+  padding: 2em;
+  line-height: 1.6em;
+  text-align: left;
+  position: relative;
+  background-color: white;
+}
+.bottom {
+  padding: 1em 2em;
+  position: relative;
+}
+  .left {
+    position: relative;
+  }
+  .right {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    text-align: right;
+  }
+  .signature {
+    position: relative;
+    margin-top: 1em;
+    font-size: 0.8em;
+  }
+code, pre {
+  background-color: #ddd;
+  font-size: 0.9em;
+  font-family: 'Consolas', 'Menlo', 'Monaco', monospace, serif;
+}
+code {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+pre {
+  padding: 1em;
+  line-height: 1.3em;
+}
+ol, ul {
+  margin-left: 2em;
+}
+a {
+  color: #0093d0;
+}
+p {
+  margin: 1em 0;
+}
+h1 {
+  margin-bottom: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+h2 {
+  margin-top: 1.5em;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+table {
+}
+  table td, table th {
+    vertical-align: top;
+    text-align: left;
+  }
+  table td, table th {
+    font-weight: normal;
+  }
+  table td {
+    padding-bottom: 0.3em;
+  }
+span.step {
+  clear: both;
+  color: #0093d0;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  padding: 0.5em;
+}
+ul.blog {
+  margin-left: 0;
+}
+  ul.blog li {
+    margin-top: 1.5em;
+    list-style: none;
+  }

@@ -1,0 +1,9 @@
+---
+layout: default
+title: tpc2
+---
+
+{% for post in site.categories.front %}
+  <h1>{{ post.title }}</h1>
+  {{ post.content }}
+{% endfor %}
