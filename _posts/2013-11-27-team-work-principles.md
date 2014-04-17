@@ -11,4 +11,4 @@ Our key principles are explained by these articles:
 
  * [Bugs Are Welcome](http://www.xdsd.org/2014/04/13/bugs-are-welcome.html)
  * [No Obligations](http://www.xdsd.org/2014/04/13/no-obligations-principle.html)
- * [Definition of Done](http://www.xdsd.org)
+ * [Definition of Done](http://www.xdsd.org/2014/04/15/no-obligations-principle.html)
