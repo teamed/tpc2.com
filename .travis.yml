@@ -5,6 +5,6 @@ branches:
 install: bundle
 env:
   global:
-    - secure: "M0boze7bDEvsIgz6pcpA+ubKeELGjde9Qn6tKkbbtRYC/8lbeUKYKL6HHRAauejyp+v4OuAb3+tl7flynrtdmb6QfkEMgJI3Ah98GcsaaB5+EVttOP+1r5ELwYUHm2ng940mhEUFZzVtRjrcNgjC2EMMyJm4kjN6dPr+L0EUHWE="
-script: ./deploy.sh
+    - secure: "VVyIT+ENYyB9M/9LGDt1h6HJ8zdBvFYuP1Ck5+ikmxyu4Y+ghycH35TjeSKZHntO65FN5yGC2mWjZT0we7JH2Vis3crlFklZUHQIzVZuAnAFXElpZsnYMxKXvmY/aL7QleA9inivruiLB9u3j/vWAuZ7q0RCBwemv6YTh6ah8Kw="
+script: jgd -u https://yegor256:$PASSWORD@github.com/tpc2/tpc2.com.git
 
