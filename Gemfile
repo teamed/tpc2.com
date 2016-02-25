@@ -2,7 +2,7 @@
 # Just run "bundle"
 #
 source 'https://rubygems.org'
-gem 'jekyll'
+gem 'jekyll', '2.4.0'
 gem 'sass'
 gem 'jekyll-sass'
 gem 'jekyll-press'
