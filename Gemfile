@@ -1,9 +1,5 @@
-#
-# Just run "bundle"
-#
 source 'https://rubygems.org'
-gem 'jekyll', '2.4.0'
-gem 'sass'
-gem 'jekyll-sass'
-gem 'jekyll-press'
-gem 'jgd', '1.6.2'
+gem 'sass', '3.4.16'
+gem 'jslint', '1.2.0'
+gem 'scss-lint', '0.38.0'
+gem 'haml', '4.0.5'

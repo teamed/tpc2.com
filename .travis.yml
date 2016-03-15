@@ -1,14 +1,27 @@
 language: ruby
 rvm:
-  - 2.0.0
-sudo: required
-cache: bundler
+  - 2.1.0
+sudo: false
 branches:
   only:
-    - master
-install: bundle
-env:
-  global:
-    - secure: "VVyIT+ENYyB9M/9LGDt1h6HJ8zdBvFYuP1Ck5+ikmxyu4Y+ghycH35TjeSKZHntO65FN5yGC2mWjZT0we7JH2Vis3crlFklZUHQIzVZuAnAFXElpZsnYMxKXvmY/aL7QleA9inivruiLB9u3j/vWAuZ7q0RCBwemv6YTh6ah8Kw="
-script: jgd -u https://yegor256:$PASSWORD@github.com/tpc2/tpc2.com.git
-
+  - master
+before_install:
+  - set -e
+  - openssl aes-256-cbc -K $encrypted_e67f2ec3713b_key -iv $encrypted_e67f2ec3713b_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
+  - git config --global user.email "travis@teamed.io"
+  - git config --global user.name "travis"
+install:
+  - travis_retry bundle install
+script:
+  - make
+  - git clone git@github.com:teamed/tpc2.com.git tmp
+  - cd tmp
+  - git checkout gh-pages
+  - rm -rf *
+  - mv ../target/* .
+  - git add .
+  - git commit -am 'deploy' --allow-empty
+  - git push origin gh-pages
+  - cd ..
+  - rm -rf tmp
